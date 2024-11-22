@@ -1,0 +1,14 @@
+E:\ReStartItC#\miniOppgave\miniOppgave\bin\Debug\net8.0\miniOppgave.exe
+E:\ReStartItC#\miniOppgave\miniOppgave\bin\Debug\net8.0\miniOppgave.deps.json
+E:\ReStartItC#\miniOppgave\miniOppgave\bin\Debug\net8.0\miniOppgave.runtimeconfig.json
+E:\ReStartItC#\miniOppgave\miniOppgave\bin\Debug\net8.0\miniOppgave.dll
+E:\ReStartItC#\miniOppgave\miniOppgave\bin\Debug\net8.0\miniOppgave.pdb
+E:\ReStartItC#\miniOppgave\miniOppgave\obj\Debug\net8.0\miniOppgave.GeneratedMSBuildEditorConfig.editorconfig
+E:\ReStartItC#\miniOppgave\miniOppgave\obj\Debug\net8.0\miniOppgave.AssemblyInfoInputs.cache
+E:\ReStartItC#\miniOppgave\miniOppgave\obj\Debug\net8.0\miniOppgave.AssemblyInfo.cs
+E:\ReStartItC#\miniOppgave\miniOppgave\obj\Debug\net8.0\miniOppgave.csproj.CoreCompileInputs.cache
+E:\ReStartItC#\miniOppgave\miniOppgave\obj\Debug\net8.0\miniOppgave.dll
+E:\ReStartItC#\miniOppgave\miniOppgave\obj\Debug\net8.0\refint\miniOppgave.dll
+E:\ReStartItC#\miniOppgave\miniOppgave\obj\Debug\net8.0\miniOppgave.pdb
+E:\ReStartItC#\miniOppgave\miniOppgave\obj\Debug\net8.0\miniOppgave.genruntimeconfig.cache
+E:\ReStartItC#\miniOppgave\miniOppgave\obj\Debug\net8.0\ref\miniOppgave.dll
