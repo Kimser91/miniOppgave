@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
+using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -20,6 +22,23 @@ namespace miniOppgave
             Fag = fag;
         }
 
+        public void printSubjects()
+        {
+            
+            foreach (var fag in Fag)
+            {
+                
+                    Console.WriteLine(fag.Name);
+                    Console.WriteLine(fag.Description);
+                    Console.WriteLine(fag.Value);
+                
+            }
 
+        }
+
+        private void JoinSubject()
+        {
+            
+        }
     }
 }

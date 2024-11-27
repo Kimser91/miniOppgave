@@ -12,3 +12,4 @@ E:\ReStartItC#\miniOppgave\miniOppgave\obj\Debug\net8.0\refint\miniOppgave.dll
 E:\ReStartItC#\miniOppgave\miniOppgave\obj\Debug\net8.0\miniOppgave.pdb
 E:\ReStartItC#\miniOppgave\miniOppgave\obj\Debug\net8.0\miniOppgave.genruntimeconfig.cache
 E:\ReStartItC#\miniOppgave\miniOppgave\obj\Debug\net8.0\ref\miniOppgave.dll
+E:\ReStartItC#\miniOppgave\miniOppgave\obj\Debug\net8.0\miniOppgave.sourcelink.json

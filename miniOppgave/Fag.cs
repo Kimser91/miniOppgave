@@ -18,5 +18,9 @@ namespace miniOppgave
             Description = description;
             Value = value;
         }
+
+
+
+
     }
 }

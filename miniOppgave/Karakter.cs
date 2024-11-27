@@ -8,12 +8,12 @@ namespace miniOppgave
 {
     internal class Karakter
     {
-        public string Subject;
+       
         public int Grade;
 
-        public Karakter(string subject, int grade)
+        public Karakter(int grade)
         {
-            Subject = subject;
+           
             Grade = grade;
         }
 

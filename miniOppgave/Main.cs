@@ -24,7 +24,7 @@ namespace miniOppgave
             };
             StudentList = new List<Student>()
             {
-                new Student(1, "Lars Larsen", "I'm Me", FagList),
+                new Student(1, "Lars Larsen", "I'm Me", new List<Fag> {FagList[0], FagList[1], FagList[2] }),
             };
 
 
@@ -39,6 +39,7 @@ namespace miniOppgave
                 switch (input)
                 {
                     case "1":
+
                         PrintStudent();
                         break;
                     case "2":
@@ -51,16 +52,26 @@ namespace miniOppgave
             }
         public void PrintStudent()
         {
+            var userInput = Console.ReadLine();
+            if (userInput == "1")
+            {
+                Console.WriteLine(StudentList[0].Name);
+                Console.WriteLine(StudentList[0].Description);
+                StudentList[0].printSubjects();
+            }
 
         }
 
         public void PrintAllSubjects()
         {
+            int id = 0;
             foreach (var fag in FagList)
             {
+                Console.WriteLine("Subject ID: "+id);
                 Console.WriteLine(fag.Name);
                 Console.WriteLine(fag.Description);
                 Console.WriteLine(fag.Value);
+                id++;
             }
         }
 
@@ -70,9 +81,11 @@ namespace miniOppgave
             {
                 Console.WriteLine(student.Name);
                 Console.WriteLine(student.Description);
-               PrintAllSubjects();
+               
             }
         }
+
+        
     }
 
 
