@@ -17,5 +17,6 @@ namespace miniOppgave
             Grade = grade;
         }
 
+
     }
 }

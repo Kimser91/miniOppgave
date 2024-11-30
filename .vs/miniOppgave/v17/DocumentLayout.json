@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "E:\\ReStartItC#\\miniOppgave\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1A3F2428-AF0B-4406-8AC1-6803A3B47FEC}|miniOppgave\\miniOppgave.csproj|e:\\restartitc#\\minioppgave\\minioppgave\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A3F2428-AF0B-4406-8AC1-6803A3B47FEC}|miniOppgave\\miniOppgave.csproj|solutionrelative:minioppgave\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1A3F2428-AF0B-4406-8AC1-6803A3B47FEC}|miniOppgave\\miniOppgave.csproj|e:\\restartitc#\\minioppgave\\minioppgave\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1A3F2428-AF0B-4406-8AC1-6803A3B47FEC}|miniOppgave\\miniOppgave.csproj|solutionrelative:minioppgave\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1A3F2428-AF0B-4406-8AC1-6803A3B47FEC}|miniOppgave\\miniOppgave.csproj|e:\\restartitc#\\minioppgave\\minioppgave\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A3F2428-AF0B-4406-8AC1-6803A3B47FEC}|miniOppgave\\miniOppgave.csproj|solutionrelative:minioppgave\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1A3F2428-AF0B-4406-8AC1-6803A3B47FEC}|miniOppgave\\miniOppgave.csproj|e:\\restartitc#\\minioppgave\\minioppgave\\fag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1A3F2428-AF0B-4406-8AC1-6803A3B47FEC}|miniOppgave\\miniOppgave.csproj|solutionrelative:minioppgave\\fag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A3F2428-AF0B-4406-8AC1-6803A3B47FEC}|miniOppgave\\miniOppgave.csproj|e:\\restartitc#\\minioppgave\\minioppgave\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A3F2428-AF0B-4406-8AC1-6803A3B47FEC}|miniOppgave\\miniOppgave.csproj|solutionrelative:minioppgave\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A3F2428-AF0B-4406-8AC1-6803A3B47FEC}|miniOppgave\\miniOppgave.csproj|e:\\restartitc#\\minioppgave\\minioppgave\\karakter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A3F2428-AF0B-4406-8AC1-6803A3B47FEC}|miniOppgave\\miniOppgave.csproj|solutionrelative:minioppgave\\karakter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A3F2428-AF0B-4406-8AC1-6803A3B47FEC}|miniOppgave\\miniOppgave.csproj|e:\\restartitc#\\minioppgave\\minioppgave\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A3F2428-AF0B-4406-8AC1-6803A3B47FEC}|miniOppgave\\miniOppgave.csproj|solutionrelative:minioppgave\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,46 +42,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "Karakter.cs",
+              "DocumentMoniker": "E:\\ReStartItC#\\miniOppgave\\miniOppgave\\Karakter.cs",
+              "RelativeDocumentMoniker": "miniOppgave\\Karakter.cs",
+              "ToolTip": "E:\\ReStartItC#\\miniOppgave\\miniOppgave\\Karakter.cs",
+              "RelativeToolTip": "miniOppgave\\Karakter.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T13:06:25.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Main.cs",
               "DocumentMoniker": "E:\\ReStartItC#\\miniOppgave\\miniOppgave\\Main.cs",
               "RelativeDocumentMoniker": "miniOppgave\\Main.cs",
               "ToolTip": "E:\\ReStartItC#\\miniOppgave\\miniOppgave\\Main.cs",
               "RelativeToolTip": "miniOppgave\\Main.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAowDwAAAANAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAowFEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T11:18:48.37Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Fag.cs",
               "DocumentMoniker": "E:\\ReStartItC#\\miniOppgave\\miniOppgave\\Fag.cs",
               "RelativeDocumentMoniker": "miniOppgave\\Fag.cs",
               "ToolTip": "E:\\ReStartItC#\\miniOppgave\\miniOppgave\\Fag.cs",
               "RelativeToolTip": "miniOppgave\\Fag.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAIAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T10:26:15.355Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Student.cs",
               "DocumentMoniker": "E:\\ReStartItC#\\miniOppgave\\miniOppgave\\Student.cs",
               "RelativeDocumentMoniker": "miniOppgave\\Student.cs",
               "ToolTip": "E:\\ReStartItC#\\miniOppgave\\miniOppgave\\Student.cs",
               "RelativeToolTip": "miniOppgave\\Student.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBgAAAAjAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T10:26:01.716Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\ReStartItC#\\miniOppgave\\miniOppgave\\Program.cs",
               "RelativeDocumentMoniker": "miniOppgave\\Program.cs",
@@ -85,8 +102,7 @@
               "RelativeToolTip": "miniOppgave\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T10:24:52.306Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T10:24:52.306Z"
             }
           ]
         }

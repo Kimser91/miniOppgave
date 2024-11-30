@@ -27,12 +27,11 @@ namespace miniOppgave
             
             foreach (var fag in Fag)
             {
-                
-                    Console.WriteLine(fag.Name);
-                    Console.WriteLine(fag.Description);
-                    Console.WriteLine(fag.Value);
-                
+                    Console.Write($"{fag.Name}\t");
+                    Console.Write($"{fag.Description}\t");
+                    Console.Write($"{fag.Value}\t\n");
             }
+            
 
         }
 

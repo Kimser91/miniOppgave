@@ -14,6 +14,7 @@ namespace miniOppgave
         public List<Student> StudentList { set; get; }
         public List<Karakter> Grades { set; get; }
 
+        private bool run = true;
         public Main()
         {
             FagList = new List<Fag>()
@@ -25,42 +26,57 @@ namespace miniOppgave
             StudentList = new List<Student>()
             {
                 new Student(1, "Lars Larsen", "I'm Me", new List<Fag> {FagList[0], FagList[1], FagList[2] }),
+                new Student(1, "Kim Larsen", "I'm Me", new List<Fag> { FagList[1], }),
+                new Student(1, "Blake Larsen", "I'm Me", new List<Fag> {FagList[0], FagList[2] })
             };
 
 
         }
         public void MainMenu()
             {
-                Console.WriteLine("What do you need to check?");
-                Console.WriteLine("1. Student report card");
-                Console.WriteLine("2. Subject overview");
-                Console.WriteLine("3. Student overview");
-                var input = Console.ReadLine();
-                switch (input)
+                while (run)
                 {
-                    case "1":
+                    Console.WriteLine();
+                    Console.WriteLine();
+                    Console.WriteLine("What do you need to check?");
+                    Console.WriteLine("1. Student report card");
+                    Console.WriteLine("2. Subject overview");
+                    Console.WriteLine("3. Student overview");
+                    Console.WriteLine("4. Exit");
+                    var input = Console.ReadLine();
+                    Console.WriteLine();
+                    Console.WriteLine();
+                    switch (input)
+                    {
+                        case "1":
 
-                        PrintStudent();
-                        break;
-                    case "2":
-                        PrintAllSubjects();
-                        break;
-                    case "3":
-                        PrintAllStudents();
-                        break;
+                            PrintStudent();
+                            break;
+                        case "2":
+                            PrintAllSubjects();
+                            break;
+                        case "3":
+                            PrintAllStudents();
+                            break;
+                        case "4":
+                            run = false;
+                            break;
+                    }
                 }
             }
         public void PrintStudent()
         {
-            var userInput = Console.ReadLine();
-            if (userInput == "1")
+            for (int i = 0; i < StudentList.Count; i++)
             {
-                Console.WriteLine(StudentList[0].Name);
-                Console.WriteLine(StudentList[0].Description);
-                StudentList[0].printSubjects();
+                Console.WriteLine($"ID: {i + 1} Name:  {StudentList[i].Name}");
             }
+            int userInput = Convert.ToInt32(Console.ReadLine());
 
-        }
+                Console.WriteLine(StudentList[userInput - 1].Name);
+                Console.WriteLine(StudentList[userInput - 1].Description);
+                StudentList[userInput - 1].printSubjects();
+                Console.ReadKey();
+    }
 
         public void PrintAllSubjects()
         {
@@ -83,6 +99,7 @@ namespace miniOppgave
                 Console.WriteLine(student.Description);
                
             }
+            Console.ReadKey();
         }
 
         

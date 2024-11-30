@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("miniOppgave")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed0a4ad6030f4072051deb100efa55363697c90b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7acd1322756d69e14938884650bf2ee826e6d24")]
 [assembly: System.Reflection.AssemblyProductAttribute("miniOppgave")]
 [assembly: System.Reflection.AssemblyTitleAttribute("miniOppgave")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
